@@ -1,0 +1,48 @@
+﻿<Properties StartupItem="Sample.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.5655498d" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\Droid\Resources\Resource.designer.cs">
+    <Files>
+      <File FileName="..\..\..\..\Droid\MainActivity.cs" Line="20" Column="8" />
+      <File FileName="..\..\..\..\SweatUp\SweatUp.cs" Line="22" Column="4" />
+      <File FileName="..\..\..\..\SweatUp\LoginView.cs" Line="7" Column="17" />
+      <File FileName="..\..\..\..\SweatUp\HomeView.cs" Line="7" Column="17" />
+      <File FileName="..\..\..\..\Droid\Properties\AndroidManifest.xml" Line="19" Column="16" />
+      <File FileName="..\..\..\..\Droid\RegistrationIntentService.cs" Line="30" Column="52" />
+      <File FileName="..\..\..\..\Droid\GcmListener.cs" Line="37" Column="76" />
+      <File FileName="..\..\..\..\Droid\Resources\values\Styles.xml" Line="12" Column="7" />
+      <File FileName="..\..\..\..\Droid\Resources\Resource.designer.cs" Line="593" Column="12" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sample" expanded="True">
+            <Node name="Sample" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="values" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+          <Node name="SweatUp" expanded="True" selected="True">
+            <Node name="SweatUp" expanded="True" />
+            <Node name="SweatUp.Droid" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="values" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint traceExpression="{sweatup.Droid.Resource.Drawable.icon}" file="C:\Users\Lidia\Documents\sweatup\app\SweatUp\Droid\GcmListener.cs" line="37" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="..\..\..\..\Droid\GcmListener.cs" line="37" offsetX="599" offsetY="576" expression="sweatup.Droid.Resource.Drawable.icon" liveUpdate="True" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

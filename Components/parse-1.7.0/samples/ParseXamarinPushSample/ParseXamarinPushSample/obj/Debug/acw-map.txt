@@ -1,0 +1,16 @@
+ParseXamarinPushSample.MainActivity, ParseXamarinPushSample;md580210e6a9de1e1ab190a8e28c18c6943.MainActivity
+ParseXamarinPushSample.MainActivity, ParseXamarinPushSample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md580210e6a9de1e1ab190a8e28c18c6943.MainActivity
+ParseXamarinPushSample.MainActivity;md580210e6a9de1e1ab190a8e28c18c6943.MainActivity
+parsexamarinpushsample.MainActivity;md580210e6a9de1e1ab190a8e28c18c6943.MainActivity
+ParseXamarinPushSample.ParseApplication, ParseXamarinPushSample;parsexamarinpushsample.ParseApplication
+ParseXamarinPushSample.ParseApplication, ParseXamarinPushSample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;parsexamarinpushsample.ParseApplication
+ParseXamarinPushSample.ParseApplication;parsexamarinpushsample.ParseApplication
+parsexamarinpushsample.ParseApplication;parsexamarinpushsample.ParseApplication
+Parse.ParsePushBroadcastReceiver, Parse.Android;parse.ParsePushBroadcastReceiver
+Parse.ParsePushBroadcastReceiver, Parse.Android, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null;parse.ParsePushBroadcastReceiver
+Parse.ParsePushBroadcastReceiver;parse.ParsePushBroadcastReceiver
+parse.ParsePushBroadcastReceiver;parse.ParsePushBroadcastReceiver
+Parse.ParsePushService, Parse.Android;parse.ParsePushService
+Parse.ParsePushService, Parse.Android, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null;parse.ParsePushService
+Parse.ParsePushService;parse.ParsePushService
+parse.ParsePushService;parse.ParsePushService

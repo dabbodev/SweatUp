@@ -1,0 +1,86 @@
+﻿using Android.App;
+using Android.Preferences;
+using Android.Gms.Gcm.Iid;
+using Android;
+using Android.Gms.Gcm;
+using Android.Util;
+using Android.Support.V4.Content;
+using System;
+using System.Collections.Generic;
+using Android.Content;
+using Parse;
+
+
+namespace SweatUp.Droid
+{
+	[Service (Exported = false)]
+	public class RegistrationIntentService : IntentService
+	{
+		const string TAG = "RegIntentService";
+		public static List<string> TOPICS = new List<string>();
+
+		public RegistrationIntentService() : base (TAG) {
+		}
+
+		protected override void OnHandleIntent (Intent intent)
+		{
+			var sharedPreferences = PreferenceManager.GetDefaultSharedPreferences(this);
+			TOPICS.Add ("global");
+
+			if (ParseUser.CurrentUser != null) {
+				try {
+				var topics = ParseUser.CurrentUser.Get<List<object>> ("topics");
+				foreach(var topic in topics)
+					TOPICS.Add (topic.ToString());
+				}catch (Exception e) {
+					Console.WriteLine (e.Message);
+				}
+			}
+
+			try {
+				lock (TAG) {
+					var instanceID = InstanceID.GetInstance(this);
+					var token = instanceID.GetToken("898484622392",
+						GoogleCloudMessaging.InstanceIdScope, null);
+					Log.Info(TAG, "GCM Registration Token: " + token);
+					SendRegistrationToServer(token);
+					SubscribeTopics(token);
+					sharedPreferences.Edit().PutBoolean(QuickstartPreferences.SENT_TOKEN_TO_SERVER, true).Apply();
+				}
+			} catch (Exception e) {
+				Log.Debug(TAG, "Failed to complete token refresh", e);
+				sharedPreferences.Edit().PutBoolean(QuickstartPreferences.SENT_TOKEN_TO_SERVER, false).Apply();
+			}
+			var registrationComplete = new Intent(QuickstartPreferences.REGISTRATION_COMPLETE);
+			LocalBroadcastManager.GetInstance(this).SendBroadcast(registrationComplete);
+		}
+
+		public static Boolean SubUserTopics () {
+			if (ParseUser.CurrentUser != null) {
+				try {
+					var topics = ParseUser.CurrentUser.Get<List<object>> ("topics");
+					foreach (var topic in topics)
+						TOPICS.Add (topic.ToString ());
+					return true;
+				} catch (Exception e) {
+					Console.WriteLine (e.Message);
+					return false;
+				}
+			} else {
+				return false;
+			}
+		}
+
+		void SendRegistrationToServer(string token) {
+			// Add custom implementation, as needed.
+		}
+
+		void SubscribeTopics(string token) {
+			foreach (var topic in TOPICS) {
+				var pubSub = GcmPubSub.GetInstance(this);
+				pubSub.Subscribe(token, "/topics/" + topic, null);
+			}
+		}
+	}
+}
+

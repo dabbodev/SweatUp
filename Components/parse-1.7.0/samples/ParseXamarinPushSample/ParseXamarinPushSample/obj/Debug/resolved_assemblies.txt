@@ -1,0 +1,10 @@
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\assemblies\ParseXamarinPushSample.dll
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\assemblies\mscorlib.dll
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\assemblies\Parse.Android.dll
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\assemblies\System.Core.dll
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\assemblies\System.dll
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\assemblies\System.Xml.dll
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\assemblies\System.Xml.Linq.dll
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\assemblies\System.Runtime.Serialization.dll
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\assemblies\System.ServiceModel.Internals.dll

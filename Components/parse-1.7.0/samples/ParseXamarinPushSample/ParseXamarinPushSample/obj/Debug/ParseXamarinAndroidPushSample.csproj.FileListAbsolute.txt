@@ -1,0 +1,15 @@
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\bin\Debug\ParseXamarinPushSample.dll
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\bin\Debug\ParseXamarinPushSample.pdb
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\bin\Debug\com.parse.parsexamarinpushsample.apk
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\bin\Debug\com.parse.parsexamarinpushsample-Signed.apk
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\bin\Debug\Parse.Android.dll
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\bin\Debug\Parse.Android.xml
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\ParseXamarinAndroidPushSample.csprojResolveAssemblyReference.cache
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\ParseXamarinPushSample.dll
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\ParseXamarinPushSample.pdb
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\android\bin\com.parse.parsexamarinpushsample.apk
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\res\layout\main.xml
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\res\values\strings.xml
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\res\drawable\icon.png
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\R.cs.flag
+C:\Users\Lidia\Documents\sweatup\app\SweatUp\Components\parse-1.7.0\samples\ParseXamarinPushSample\ParseXamarinPushSample\obj\Debug\uploadflags.txt

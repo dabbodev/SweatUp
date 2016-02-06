@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<resources>
+	<style name="Theme.Splash" parent="android:Theme">
+		<item name="android:windowBackground">@drawable/splash</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	<style name="FullScreen" parent="@android:Theme.Material.Light.DarkActionBar">
+      <item name="android:windowFullscreen">true</item> 
+   </style>
+   <style name="AppTheme" parent="@android:Theme.Material">
+       
+   </style>
+   <style name="Login" parent="@android:Theme.Material">
+   </style>
+</resources>

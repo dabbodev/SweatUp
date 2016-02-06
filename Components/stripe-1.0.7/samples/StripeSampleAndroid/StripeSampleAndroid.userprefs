@@ -1,0 +1,44 @@
+﻿<Properties StartupItem="StripeSampleAndroid\StripeSampleAndroid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Xamarin_Android_API_15" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\SweatUp\Views\Pages\BuyPage.cs">
+    <Files>
+      <File FileName="..\..\..\..\SweatUp\Views\HomeView.cs" Line="110" Column="32" />
+      <File FileName="..\..\..\..\SweatUp\Views\GymView.cs" Line="27" Column="4" />
+      <File FileName="..\..\..\..\SweatUp\Views\Pages\SubPage.cs" Line="75" Column="15" />
+      <File FileName="..\..\..\..\SweatUp\BuyType.cs" Line="12" Column="21" />
+      <File FileName="c:\Users\Lidia\Documents\sweatup\app\SweatUp\SweatUp\Glbals.cs" Line="12" Column="38" />
+      <File FileName="..\..\..\..\SweatUp\Views\Pages\GymPage.cs" Line="136" Column="72" />
+      <File FileName="..\..\..\..\SweatUp\Views\Pages\PlaceListPage.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\SweatUp\ListPlace.cs" Line="16" Column="22" />
+      <File FileName="StripeSampleAndroid\CardInputActivity.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\SweatUp\Views\Pages\BuyPage.cs" Line="64" Column="49" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StripeSampleAndroid" expanded="True">
+            <Node name="StripeSampleAndroid" expanded="True" />
+          </Node>
+          <Node name="SweatUp" expanded="True">
+            <Node name="SweatUp" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Pages" expanded="True">
+                  <Node name="BuyPage.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="SweatUp.Droid" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="..\..\..\..\Droid\GcmListener.cs" line="37" offsetX="599" offsetY="576" expression="sweatup.Droid.Resource.Drawable.icon" liveUpdate="True" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
